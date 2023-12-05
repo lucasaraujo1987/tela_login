@@ -14,21 +14,21 @@
         <span class="bg-animate2"></span>
 
         <div class="form-box login">
-            <h2>Login</h2>
+            <h2 class="animation" style="--i:0;">Login</h2>
             <form action="#">
-                <div class="input-box">
+                <div class="input-box animation" style="--i:1;">
                     <input type="text" required>
                     <label>Usuáro</label>
                     <i class='bx bxs-user'></i>
                 </div>
-                <div class="input-box">
+                <div class="input-box animation" style="--i:2;">
                     <input type="password" required>
                     <label>Senha</label>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
-                <button type="submit" class="btn">Login</button>
-                <div class="logreg-link">
-                    <p>Não tenho conta? <a href="#" class="register-link">Inscrever-se</a></p>
+                <button type="submit" class="btn animation" style="--i:3;">Login</button>
+                <div class="logreg-link animation" style="--i:4;">
+                    <p>Abra sua conta <a href="#" class="register-link">Inscrever-se</a></p>
                 </div>
             </form>
         </div>
@@ -37,7 +37,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         </div>
 
-        <div class="form-box login">
+        <div class="form-box register">
             <h2>Login</h2>
             <form action="#">
                 <div class="input-box">
@@ -46,17 +46,28 @@
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
+                    <input type="text" required>
+                    <label>Email</label>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box">
                     <input type="password" required>
                     <label>Senha</label>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
-                <button type="submit" class="btn">Login</button>
+                <button type="submit" class="btn">Criar conta</button>
                 <div class="logreg-link">
-                    <p>Não tenho conta? <a href="#" class="register-link">Inscrever-se</a></p>
+                    <p>Já tenho conta <a href="#" class="login-link">Login</a></p>
                 </div>
             </form>
         </div>
+        <div class="info-text register">
+            <h2>Bem vindo de volta!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
     </div>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
